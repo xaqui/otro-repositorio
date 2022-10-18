@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+
+.item{
+    list-style: none;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.item a{
+    text-decoration: none;
+}
+
+.item:hover{
+    background-color: lightcyan;
+}
